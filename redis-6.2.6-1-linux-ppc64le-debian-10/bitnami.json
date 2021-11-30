@@ -1,0 +1,23 @@
+{
+    "id": "com.bitnami.redis",
+    "name": "redis",
+    "extends": ["Component"],
+    "author":     {
+        "name": "Bitnami",
+        "url": "https://bitnami.com"
+    },
+    "version": "6.2.6",
+    "revision": "1",
+    "installation":     {
+        "prefix": "redis",
+        "packaging": {"components": [        {
+            "name": "redis",
+            "owner": "root",
+            "folders": [            {
+                "name": "redis",
+                "destination": "{{$app.installation.root}}",
+                "files": [{"origin": ["files/*"]}]
+            }]
+        }]}
+    }
+}
