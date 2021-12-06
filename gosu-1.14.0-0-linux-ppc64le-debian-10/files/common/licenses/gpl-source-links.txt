@@ -1,0 +1,1 @@
+gosu-1.14.0,GPL3,https://github.com/tianon/gosu/archive/1.14.tar.gz

@@ -1,0 +1,1 @@
+wait-for-port-1.0.1,GPL2,https://github.com/bitnami/wait-for-port/archive/v1.0.1.tar.gz

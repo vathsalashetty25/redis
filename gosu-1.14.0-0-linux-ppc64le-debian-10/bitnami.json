@@ -1,0 +1,23 @@
+{
+    "id": "com.bitnami.gosu",
+    "name": "gosu",
+    "extends": ["Component"],
+    "author":     {
+        "name": "Bitnami",
+        "url": "https://bitnami.com"
+    },
+    "version": "1.14.0",
+    "revision": "0",
+    "installation":     {
+        "prefix": "common",
+        "packaging": {"components": [        {
+            "name": "gosu",
+            "owner": "root",
+            "folders": [            {
+                "name": "gosu",
+                "destination": "{{$app.installation.root}}",
+                "files": [{"origin": ["files/*"]}]
+            }]
+        }]}
+    }
+}
